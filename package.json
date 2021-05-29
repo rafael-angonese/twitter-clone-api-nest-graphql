@@ -23,12 +23,22 @@
   "dependencies": {
     "@nestjs/common": "^7.6.15",
     "@nestjs/core": "^7.6.15",
+    "@nestjs/graphql": "^7.10.6",
     "@nestjs/platform-express": "^7.6.15",
+    "@nestjs/typeorm": "^7.1.5",
+    "apollo-server": "^2.25.0",
+    "apollo-server-express": "^2.25.0",
+    "class-transformer": "^0.4.0",
+    "class-validator": "^0.13.1",
+    "graphql": "^15.5.0",
+    "pg": "^8.6.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.6.6"
+    "rxjs": "^6.6.6",
+    "typeorm": "^0.2.32"
   },
   "devDependencies": {
+    "@apollo/gateway": "^0.28.2",
     "@nestjs/cli": "^7.6.0",
     "@nestjs/schematics": "^7.3.0",
     "@nestjs/testing": "^7.6.15",
