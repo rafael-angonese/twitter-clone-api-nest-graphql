@@ -9,8 +9,10 @@ export class User {
   id: string;
 
   @Column()
+  @Field(() => String, { description: 'Nome' })
   name: string;
 
   @Column()
+  @Field(() => String, { description: 'E-mail' })
   email: string;
 }
